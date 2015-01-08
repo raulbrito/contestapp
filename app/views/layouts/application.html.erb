@@ -60,6 +60,13 @@
       <div class="row">
         <div class="col-lg-9">
           <%= bootstrap_flash %>
+          <a class="brand" href="/">Contestapp</a>
+                 <div class="container-fluid nav-collapse">
+                   <ul class="nav">
+                     <li><%= link_to "Accounts", accounts_path%></li>
+                   </ul>
+                 </div><!--/.nav-collapse -->
+
           <%= yield %>
         </div>
         <div class="col-lg-3">
